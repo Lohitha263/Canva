@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className='bg-[#6669FE] h-[98px] w-full flex justify-center fixed z-[99]'>
             <div className='w-11/12 h-full flex justify-between items-center'>
                 <Link href={"/"}>
-                    <Image src={"/layout/LOGO.png"} alt='Logo' height={49.03} width={96.67} />
+                    <Image src={"/layout/Logo.png"} alt='Logo' height={49.03} width={96.67} />
                 </Link>
                 <div className='md:text-[32px] text-[24px] font-bold text-white'>
                     Student Potal

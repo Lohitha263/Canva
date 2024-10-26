@@ -8,7 +8,7 @@ const Middleblock = () => {
     return (
         <div className='w-full flex flex-col gap-[10px]'>
             <h2 className='text-[24px] font-bold'>Quick Links</h2>
-            <Card className="rounded-[20px] bg-[#4749B3] md:hover:bg-white md:px-16 max-md:gap-10 md:py-10 flex md:flex-col items-center group transition-colors duration-300">
+            <Card className="rounded-[20px] !bg-[#4749B3] md:hover:bg-white md:px-16 max-md:gap-10 md:py-10 flex md:flex-col items-center group transition-colors duration-300">
                 <div className="md:flex hidden group-hover:hidden">
                     <Image src="/home/Logobook.png" alt="booklogo" width={25.79} height={25.29} />
                 </div>
@@ -25,7 +25,7 @@ const Middleblock = () => {
                     Click here to access your LMS portal for assignments, class recordings, and notes.
                 </h6>
             </Card>
-            <Card className="rounded-[20px] bg-[#E66DFF] md:hover:bg-white md:px-16 max-md:gap-10 md:py-10 flex md:flex-col items-center group transition-colors duration-300">
+            <Card className="rounded-[20px] !bg-[#E66DFF] md:hover:bg-white md:px-16 max-md:gap-10 md:py-10 flex md:flex-col items-center group transition-colors duration-300">
                 <div className="md:flex hidden group-hover:hidden">
                     <Image src="/home/Logoclass.png" alt="booklogo" width={25.79} height={25.29} />
                 </div>
@@ -42,7 +42,7 @@ const Middleblock = () => {
                     Class 7 Math is starting in 1 hour, 35 minutes.
                 </h6>
             </Card>
-            <Card className="rounded-[20px] bg-[#6669FE] md:hover:bg-white md:px-16 max-md:gap-10 md:py-10 flex md:flex-col items-center group transition-colors duration-300">
+            <Card className="rounded-[20px] !bg-[#6669FE] md:hover:bg-white md:px-16 max-md:gap-10 md:py-10 flex md:flex-col items-center group transition-colors duration-300">
                 <div className="md:flex hidden group-hover:hidden">
                     <Image src="/home/Logowhatsapp.png" alt="booklogo" width={25.79} height={25.29} />
                 </div>
