@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Getting Started
 
 First, run the development server:
@@ -11,3 +12,6 @@ pnpm dev
 # or
 bun dev
 ```
+=======
+# Canva
+>>>>>>> 8cc8fbb6d544c929a236418f7f86ca8bbee03447
